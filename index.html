@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Board</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-100 ">
+    <section >
+        <nav class=" bg-white p-4   shadow-md flex justify-between items-center rounded-xl">
+            <div class="flex justify-between items-center">
+                <img src="assets/logo.png" alt="">
+                <h1 class="text-2xl font-bold flex items-center"><span class="text-blue-600">Dev</span>Board</h1>
+            </div>
+                <div class="flex justify-between items-center space-x-3 text-2xl bg-gray-200 px-3 py-1 rounded-full">
+                    <input type="checkbox" checked="checked" class="checkbox checkbox-primary" />
+                    <h2 class="">23</h2>
+                    <button >
+                        <img src="assets/theme-btn.png" alt="">
+                    </button>
+                </div>
+        </nav>
+    </section>
+    <main>
+        <!-- header --> 
+       <section>
+        <div class="grid grid-cols-3 gap-4 mt-6  ">
+            <div class="bg-white p-6 rounded-lg shadow flex items-center gap-4">
+                <input type="checkbox" checked="checked" class="checkbox checkbox-primary" />
+                <h2 class="text-gray-500 text-sm">Task Assigned</h2>
+                <p class="text-3xl font-semibold">06</p>
+            </div>
+            <div class="bg-gradient-to-r from-blue-500 to-purple-500 text-white p-6 rounded-lg shadow flex items-center justify-center text-lg font-semibold">
+                <button id="discover">Discover Something New Today!</button>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
+                  </svg>
+                  <p>Wed</p>
+                  <p>Jul 28 2025</p>
+            </div>
+        </div>
+       </section>
+        
+       <section class=" p-6">
+        <div class="grid grid-cols-12 gap-6  ">
+            <div class="grid grid-cols-3 gap-6 mt-6 bg-base-100 p-6 col-span-9">
+                <div class="bg-gray-200 p-6 rounded-lg shadow">
+                   <p class="text-sm font-semibold text-gray-400 bg-base-100 px-3 py-1 rounded-full">ShopEase</p>
+                   <h3 class="text-lg font-bold">Fix Mobile Button Issue</h3>
+                   <p>Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                    and ensure onClick works properly</p>
+                   <p class="text-sm text-gray-500">Deadline: 21 March 2025</p>
+                   <button class="text-xs bg-purple-600 text-white px-3 py-1 rounded-full">Completed</button>
+                </div>
+                <div class="bg-gray-200 p-6 rounded-lg shadow">
+                    <p class="text-sm font-semibold text-gray-400 bg-base-100 px-3 py-1 rounded-full">Soft Pay</p>
+                    <h3 class="text-lg font-bold">Add Pay Success Modal</h3>
+                    <p>Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                     and ensure onClick works properly</p>
+                    <p class="text-sm text-gray-500">Deadline: 21 March 2025</p>
+                    <button class="text-xs bg-purple-600 text-white px-3 py-1 rounded-full">Completed</button>
+                 </div>
+                 <div class="bg-gray-200 p-6 rounded-lg shadow">
+                    <p class="text-sm font-semibold text-gray-400 bg-base-100 px-3 py-1 rounded-full">Meta</p>
+                    <h3 class="text-lg font-bold">Add new reaction</h3>
+                    <p>Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                     and ensure onClick works properly</p>
+                    <p class="text-sm text-gray-500">Deadline: 21 March 2025</p>
+                    <button class="text-xs bg-purple-600 text-white px-3 py-1 rounded-full">Completed</button>
+                 </div>
+                 <div class="bg-gray-200 p-6 rounded-lg shadow">
+                    <p class="text-sm font-semibold text-gray-400 bg-base-100 px-3 py-1 rounded-full">Programming Hero</p>
+                    <h3 class="text-lg font-bold">Fix video loading issue</h3>
+                    <p>Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                     and ensure onClick works properly</p>
+                    <p class="text-sm text-gray-500">Deadline: 21 March 2025</p>
+                    <button class="text-xs bg-purple-600 text-white px-3 py-1 rounded-full">Completed</button>
+                 </div>
+                 <div class="bg-gray-200 p-6 rounded-lg shadow">
+                    <p class="text-sm font-semibold text-gray-400 bg-base-100 px-3 py-1 rounded-full">Google LLC</p>
+                    <h3 class="text-lg font-bold">Integrate AI search</h3>
+                    <p>Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                     and ensure onClick works properly</p>
+                    <p class="text-sm text-gray-500">Deadline: 21 March 2025</p>
+                    <button class="text-xs bg-purple-600 text-white px-3 py-1 rounded-full">Completed</button>
+                 </div>
+                 <div class="bg-gray-200 p-6 rounded-lg shadow">
+                    <p class="text-sm font-semibold text-gray-400 bg-base-100 px-3 py-1 rounded-full">Polygon Tech</p>
+                    <h3 class="text-lg font-bold">Review Ami Probashi Site</h3>
+                    <p>Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                     and ensure onClick works properly</p>
+                    <p class="text-sm text-gray-500">Deadline: 21 March 2025</p>
+                    <button class="text-xs bg-purple-600 text-white px-3 py-1 rounded-full">Completed</button>
+                 </div>
+            </div>
+            <div class="col-span-3">
+                <div class="bg-white p-6 rounded-lg shadow mt-6">
+                    <h2 id="activityLog" class="text-lg font-bold">Activity Log</h2>
+                    <button id="clearHistory" class="mt-4 bg-purple-600 text-white px-4 py-2 rounded">Clear History</button>
+                </div>
+            </div>
+        </div>
+       </section>
+<!-- activity log -->
+        
+    </main>
+    
+
+
+<script src="script/discover.js"></script>
+<script src="script/history.js"></script>
+</body>
+</html>
